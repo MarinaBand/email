@@ -1,0 +1,31 @@
+{
+  "name": "emails",
+  "version": "1.0.0",
+  "description": "email layout",
+  "main": "nti.html",
+  "scripts": {
+    "test": "gulp"
+  },
+  "keywords": [
+    "email"
+  ],
+  "author": "Marina Bandura",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-css-scss": "^0.1.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-inline-css": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-typograf": "^4.0.3",
+    "node-sass": "^6.0.1",
+    "rimraf": "^3.0.2"
+  },
+  "browserslist": [
+    "Last 1 version, > 1%, IE 10"
+  ]
+}
