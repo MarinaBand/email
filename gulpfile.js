@@ -98,7 +98,9 @@ gulp.task('mv:assets', function (done){
                     {cleanupIDs: true}
                 ]
             })
-        ]))
+        ],{
+            verbose: true
+        }))
         .pipe(gulp.dest(path.build.assets))
         .pipe(reload({stream:true}));
     done();
